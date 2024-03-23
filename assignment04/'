@@ -1,0 +1,47 @@
+#include<stdio.h>
+double calculator(double num1,num2,opr)
+int main()
+{
+
+double res, num1,num2;
+char opr;
+
+printf("enter 1st num:");
+scanf("%lf",&num1);
+
+printf("enter operator:");
+scanf("%c",&opr);
+
+printf("enter 2nd num:");
+scanf("%lf",&num2);
+
+printf("enter opr you want to do",'+','-','*','/',num1,num2,res,opr );
+}
+
+switch(opr){
+
+case "+" : 
+			res=num1+num2;
+               break;
+			   
+case "-" : 
+			res=num1-num2;
+                  break;
+
+case "*" : 
+	     	res=num1*num2;
+               break;
+case "/" : 
+             if(num2 ==0){
+			 printf("invalid num:");
+			 }
+			 else{
+			return res=num1/num2;
+            }
+			break;
+
+
+}
+
+
+}
