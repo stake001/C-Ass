@@ -1,5 +1,5 @@
 
-TARGET=demo05
+TARGET=demo10
 
 
 CSRCS= $(TARGET).c
